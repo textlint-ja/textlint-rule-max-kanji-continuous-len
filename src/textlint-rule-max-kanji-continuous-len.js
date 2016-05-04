@@ -5,7 +5,7 @@ import {matchCaptureGroupAll} from "match-index"
 
 const KanjiRegExp = /((?:[々〇〻\u3400-\u9FFF\uF900-\uFAFF]|[\uD840-\uD87F][\uDC00-\uDFFF])+)/g;
 const defaultOptions = {
-    // 最大の漢字長
+    // 最大の漢字連続長
     // Allow max continuous length of kanji
     // If {current} > max(5), report Error.
     max: 5
