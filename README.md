@@ -1,4 +1,4 @@
-# textlint-rule-max-kanji-continuous-len
+# textlint-rule-max-kanji-continuous-len [![Build Status](https://travis-ci.org/azu/textlint-rule-max-kanji-continuous-len.svg?branch=master)](https://travis-ci.org/azu/textlint-rule-max-kanji-continuous-len)
 
 [textlint](https://textlint.github.io/ "textlint") rule that limit max continuous length of kanji(漢字).
 
