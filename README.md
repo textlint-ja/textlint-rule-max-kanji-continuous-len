@@ -37,7 +37,7 @@ textlint --rule max-kanji-continuous-len README.md
     - 最大の漢字長
     
 
-```json
+```js
 {
     "rules": {
         "max-kanji-continuous-len": {
