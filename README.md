@@ -66,6 +66,11 @@ textlint --rule max-kanji-continuous-len README.md
 - [02Shibasaki.pdf](http://www.jels.info/REPL/02/02Shibasaki.pdf)
 - [signl136.PDF - signl136-slides.pdf](http://www.nori.jp/publications/SIGNL136/signl136-slides.pdf)
 
+"漢字"の範囲としては日本語における漢字ではなく、CJK統合漢字を含めた漢字を"漢字"として扱っています。
+
+- [漢字にマッチする JavaScript の正規表現パターン: Days on the Moon](http://nanto.asablo.jp/blog/2015/12/31/7966713)
+- [Unicodeで「漢字」の正規表現 | ものかの](http://tama-san.com/kanji-regex/)
+
 ## Changelog
 
 See [Releases page](https://github.com/azu/textlint-rule-max-kanji-continuous-len/releases).
