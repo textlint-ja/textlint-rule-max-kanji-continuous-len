@@ -15,7 +15,7 @@
     "src/",
     "lib/"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "textlint rule that limit max continuous length of kanji(漢字).",
   "main": "lib/textlint-rule-max-kanji-continuous-len.js",
   "directories": {
