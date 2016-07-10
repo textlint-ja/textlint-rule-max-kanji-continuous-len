@@ -31,20 +31,24 @@ textlint --rule max-kanji-continuous-len README.md
 
 ## Options
 
-- `max`
+- `max`: `number`
     - default: 5
+    - 連続できる漢字の文字数
     - `一二三四五六`は6文字なのでエラーとなります。
-    - 最大の漢字長
-    
+- `allow`: `string[]`
+    - default: `[]`
+    - 無視する単語の配列
 
 ```js
 {
     "rules": {
         "max-kanji-continuous-len": {
-            // 最大の漢字長
+            // 連続できる漢字の文字数
             // Allow max continuous length of kanji
             // If {current} > max(5), report Error.
-            max: 5
+            max: 5,
+            // "倍精度浮動小数点数"という単語は例外として無視します
+            allow: ["倍精度浮動小数点数"]
         }
     }
 }

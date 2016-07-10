@@ -13,6 +13,13 @@ tester.run("max-kanji-continuous-len", rule, {
             options: {
                 max: 6 // 6 is ok, 7 is ng
             }
+        },
+        {
+            text: "まず倍精度浮動小数点数とは",
+            options: {
+                max: 6,
+                allow: ["倍精度浮動小数点数"]
+            }
         }
     ],
     invalid: [
