@@ -1,4 +1,4 @@
-# textlint-rule-max-kanji-continuous-len [![Build Status](https://travis-ci.org/azu/textlint-rule-max-kanji-continuous-len.svg?branch=master)](https://travis-ci.org/azu/textlint-rule-max-kanji-continuous-len)
+# textlint-rule-max-kanji-continuous-len [![Build Status](https://travis-ci.org/textlint-ja/textlint-rule-max-kanji-continuous-len.svg?branch=master)](https://travis-ci.org/textlint-ja/textlint-rule-max-kanji-continuous-len)
 
 [textlint](https://textlint.github.io/ "textlint") rule that limit max continuous length of kanji(漢字).
 
@@ -73,7 +73,7 @@ textlint --rule max-kanji-continuous-len README.md
 
 ## Changelog
 
-See [Releases page](https://github.com/azu/textlint-rule-max-kanji-continuous-len/releases).
+See [Releases page](https://github.com/textlint-ja/textlint-rule-max-kanji-continuous-len/releases).
 
 ## Running tests
 
@@ -84,7 +84,7 @@ Install devDependencies and Run `npm test`:
 ## Contributing
 
 Pull requests and stars are always welcome.
-For bugs and feature requests, [please create an issue](https://github.com/azu/textlint-rule-max-kanji-continuous-len/issues).
+For bugs and feature requests, [please create an issue](https://github.com/textlint-ja/textlint-rule-max-kanji-continuous-len/issues).
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
