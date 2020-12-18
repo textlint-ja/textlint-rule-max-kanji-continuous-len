@@ -32,7 +32,6 @@
     "textlintrule"
   ],
   "devDependencies": {
-    "power-assert": "^1.3.1",
     "textlint-scripts": "^3.0.0"
   },
   "dependencies": {
