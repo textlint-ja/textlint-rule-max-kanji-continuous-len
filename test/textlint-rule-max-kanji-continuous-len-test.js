@@ -20,6 +20,9 @@ tester.run("max-kanji-continuous-len", rule, {
                 max: 6,
                 allow: ["倍精度浮動小数点数"]
             }
+        },
+        {
+            text: "明日、京都市立芸術大学へ行く。"
         }
     ],
     invalid: [
